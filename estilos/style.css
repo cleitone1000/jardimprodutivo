@@ -1,5 +1,16 @@
 /* estilos/style.css */
 
+/*
+
+Paleta de cores:
+#022601 fonte
+#1b4001
+#65a603
+#467302 fundo
+#d2d904
+
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -7,19 +18,25 @@
 }
 
 body {
+    background-color: #467302;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #022601;
+}
+
+main {
+    background-color: white;
 }
 
 header {
-    background: url('../imagens/peixinho.jpg') no-repeat center center fixed;
+
+    /* background: url('../imagens/peixinho.jpg') no-repeat center center fixed; */
     background-size: cover;
     height: 200px; /* Ajuste a altura conforme necessário */
     text-align: center;
     padding: 20px;
-    color: white;
+    color: #022601;
 }
 
 
@@ -40,7 +57,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    
     font-weight: bold;
 }
 
@@ -54,25 +71,25 @@ section {
 
 /* Estilos para as seções com fundo */
 .bg-cebola {
-    background: url('../imagens/cebola.jpg') no-repeat center center fixed;
+    /* background: url('../imagens/cebola.jpg') no-repeat center center fixed; */
     background-size: cover;
-    color: white;
+    
 }
 
 .bg-hortela {
-    background: url('../imagens/hortela.jpg') no-repeat center center fixed;
+    /* background: url('../imagens/hortela.jpg') no-repeat center center fixed; */
     background-size: cover;
-    color: white;
+    
 }
 
 .bg-peixinho {
-    background: url('../imagens/peixinho.jpg') no-repeat center center fixed;
+    /* background: url('../imagens/peixinho.jpg') no-repeat center center fixed; */
     background-size: cover;
-    color: white;
+    
 }
 
 .bg-rabanete {
-    background: url('../imagens/rabanete.jpg') no-repeat center center fixed;
+    /* background: url('../imagens/rabanete.jpg') no-repeat center center fixed; */
     background-size: cover;
-    color: white;
+    
 }
