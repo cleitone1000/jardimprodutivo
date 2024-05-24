@@ -1,4 +1,11 @@
 /* estilos/style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,7 +14,7 @@ body {
 }
 
 header {
-    background: url('../imagens/tomate.jpg') no-repeat center center fixed;
+    background: url('../imagens/peixinho.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 200px; /* Ajuste a altura conforme necessário */
     text-align: center;
