@@ -1,0 +1,50 @@
+/* estilos/mediaquery.css */
+
+/* Pequenas telas: até 600px */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+}
+
+/* Celular: de 600px até 768px */
+@media (min-width: 600px) and (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
+
+/* Tablet: de 768px até 992px */
+@media (min-width: 768px) and (max-width: 992px) {
+    header {
+        padding: 20px;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
+
+/* Desktop: de 992px até 1200px */
+@media (min-width: 992px) and (max-width: 1200px) {
+    header {
+        padding: 25px;
+    }
+
+    section {
+        padding: 25px;
+    }
+}

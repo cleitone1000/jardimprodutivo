@@ -1,2 +1,71 @@
-@charset "UTF-8";
+/* estilos/style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
 
+header {
+    background: url('../imagens/tomate.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 400px; /* Ajuste a altura conforme necessário */
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+/* Estilos para as seções com fundo */
+.bg-cebola {
+    background: url('../imagens/cebola.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.bg-hortela {
+    background: url('../imagens/hortela.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.bg-peixinho {
+    background: url('../imagens/peixinho.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+.bg-rabanete {
+    background: url('../imagens/rabanete.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
