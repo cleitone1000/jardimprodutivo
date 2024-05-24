@@ -9,7 +9,7 @@ body {
 header {
     background: url('../imagens/tomate.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: 400px; /* Ajuste a altura conforme necessário */
+    height: 200px; /* Ajuste a altura conforme necessário */
     text-align: center;
     padding: 20px;
     color: white;
