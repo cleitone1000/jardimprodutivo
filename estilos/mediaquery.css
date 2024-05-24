@@ -10,14 +10,28 @@
 
     main {
         width: 250px;
-        height: 500px;
+        
         margin: auto
+    }
+
+    nav {
+        
+    }
+
+    nav > ul {
+        
+        
     }
 
     nav ul li {
         display: block;
         margin: 10px 0;
+        
+        
+        
     }
+
+    
 
     header {
         padding: 10px;
